@@ -3,7 +3,7 @@ import NewTicketForm from './NewTicketForm';
 import TicketList from './TicketList';
 import TicketDetail from './TicketDetail';
 import EditTicketForm from './EditTicketForm';
-import { connect } from 'react-reduc';
+import { connect } from 'react-redux';
 import PropTypes from "prop-types";
 
 class TicketControl extends React.Component {
